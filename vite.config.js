@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/gomis-ingenieria/',
   plugins: [
     react(),
     tailwindcss(),

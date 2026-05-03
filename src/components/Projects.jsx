@@ -27,9 +27,9 @@ export default function Projects() {
             <div 
               className="relative w-full aspect-[16/9] cursor-pointer group/img overflow-hidden" 
               style={{ background: 'linear-gradient(135deg,#18181b,#27272a)' }}
-              onClick={() => setSelectedImage('/seat_toledo.jpg')}
+              onClick={() => setSelectedImage('seat_toledo.jpg')}
             >
-              <img src="/seat_toledo.jpg" alt="SEAT Toledo" className="w-full h-full object-cover transition-transform duration-700 group-hover/img:scale-105" />
+              <img src="seat_toledo.jpg" alt="SEAT Toledo" className="w-full h-full object-cover transition-transform duration-700 group-hover/img:scale-105" />
               
               <div className="absolute inset-0 bg-black/0 group-hover/img:bg-black/30 transition-colors duration-300 flex items-center justify-center">
                 <span className="opacity-0 group-hover/img:opacity-100 bg-zinc-900/80 border border-zinc-700 text-white text-xs px-4 py-2 rounded-full backdrop-blur transition-all duration-300 flex items-center gap-2 transform translate-y-4 group-hover/img:translate-y-0">
@@ -46,9 +46,9 @@ export default function Projects() {
               <div 
                 className="absolute bottom-0 right-0 w-28 h-28 overflow-hidden border-l border-t border-zinc-700 rounded-tl-xl flex items-center justify-center cursor-pointer group/thumb" 
                 style={{ background: 'linear-gradient(135deg,#18181b,#27272a)' }}
-                onClick={(e) => { e.stopPropagation(); setSelectedImage('/suspension.jpg'); }}
+                onClick={(e) => { e.stopPropagation(); setSelectedImage('suspension.jpg'); }}
               >
-                <img src="/suspension.jpg" alt="Suspensión" className="w-full h-full object-cover transition-transform duration-500 group-hover/thumb:scale-110" />
+                <img src="suspension.jpg" alt="Suspensión" className="w-full h-full object-cover transition-transform duration-500 group-hover/thumb:scale-110" />
                 <div className="absolute inset-0 bg-black/0 group-hover/thumb:bg-black/40 transition-colors duration-300 flex items-center justify-center">
                   <span className="opacity-0 group-hover/thumb:opacity-100 text-white">
                     {expandIcon}
@@ -73,9 +73,9 @@ export default function Projects() {
             <div 
               className="relative flex-1 min-h-[12rem] cursor-pointer group/img overflow-hidden" 
               style={{ background: 'linear-gradient(135deg,#18181b,#27272a)' }}
-              onClick={() => setSelectedImage('/cad_rampa.png')}
+              onClick={() => setSelectedImage('cad_rampa.png')}
             >
-              <img src="/cad_rampa.png" alt="Plano CAD" className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover/img:scale-105" />
+              <img src="cad_rampa.png" alt="Plano CAD" className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover/img:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/40 to-transparent pointer-events-none"></div>
               
               <div className="absolute inset-0 bg-black/0 group-hover/img:bg-black/30 transition-colors duration-300 flex items-center justify-center">
@@ -106,9 +106,9 @@ export default function Projects() {
             <div 
               className="sm:w-64 flex-shrink-0 relative min-h-[10rem] flex items-center justify-center cursor-pointer group/img overflow-hidden" 
               style={{ background: 'linear-gradient(135deg,#18181b,#27272a)' }}
-              onClick={() => setSelectedImage('/doc.png')}
+              onClick={() => setSelectedImage('doc.png')}
             >
-              <img src="/doc.png" alt="Proyecto técnico" className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover/img:scale-105" />
+              <img src="doc.png" alt="Proyecto técnico" className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover/img:scale-105" />
               <div className="absolute inset-0 bg-zinc-950/40 group-hover/img:bg-zinc-950/60 transition-colors duration-300 pointer-events-none"></div>
               
               <div className="absolute inset-0 flex items-center justify-center">

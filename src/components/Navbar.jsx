@@ -28,7 +28,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center cursor-pointer" onClick={() => scrollTo('hero')}>
-          <img src="/logo.png" alt="Gomis Ingeniería & Proyectos" className="h-10 w-auto" />
+          <img src="logo.png" alt="Gomis Ingeniería & Proyectos" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Menu */}

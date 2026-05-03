@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background image & gradient */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="/cad_rampa.png" 
+          src="cad_rampa.png" 
           alt="CAD Background" 
           className="w-full h-full object-cover opacity-10 blur-sm scale-110" 
         />

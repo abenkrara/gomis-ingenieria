@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-200 antialiased selection:bg-red-600 selection:text-white;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .cf-bg {
+    background-image:
+      repeating-linear-gradient(45deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 4px),
+      repeating-linear-gradient(-45deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 4px);
+  }
+
+  .bp-grid {
+    background-image:
+      linear-gradient(rgba(239,68,68,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(239,68,68,0.07) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .red-glow {
+    box-shadow: 0 0 40px rgba(220,38,38,0.15), 0 0 80px rgba(220,38,38,0.05);
+  }
+}
